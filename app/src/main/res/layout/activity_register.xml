@@ -22,22 +22,22 @@
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:id="@+id/etPhone"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etBlood"
+            android:hint="Blood Group (A+, O-, etc.)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
             android:id="@+id/etPassword"
             android:hint="Password"
             android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <EditText
-            android:id="@+id/etPhone"
-            android:hint="Phone Number"
-            android:inputType="number"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <EditText
-            android:id="@+id/etBloodGroup"
-            android:hint="Blood Group (A+, B+, O-, etc.)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
