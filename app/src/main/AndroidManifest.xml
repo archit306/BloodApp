@@ -19,9 +19,22 @@
         <!-- Dashboard Activity -->
         <activity android:name=".DashboardActivity" />
 
+        <!-- Request Blood Activity -->
+        <activity android:name=".RequestBloodActivity" />
+
+        <!-- Donate Blood Activity -->
+        <activity android:name=".DonateBloodActivity" />
+
+        <!-- My Requests Activity -->
+        <activity android:name=".MyRequestsActivity" />
+
+        <!-- My Profile Activity -->
+        <activity android:name=".ProfileActivity" />
+
+
+
         <!-- Main Activity -->
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
